@@ -1,0 +1,36 @@
+.box{
+    text-align: center; /*this aligns the text to the center*/
+    border-style: none none none solid; /*this adds a solid line to the left side of the border*/
+    border-width: 10px; /*makes the left side of the border 10px wide*/
+    border-color: orange; /*makes the border orange*/
+    background-color: #ffe8ad; /*makes the background color that color*/
+    margin-left: 15%; /*adds a margin of 15% to the left of the div*/
+    margin-right: 15%; /*adds a margin of 15% to the right of the div*/
+}
+
+#header1{
+    border-style: dotted;
+    border-width: 5px;
+    border-color: purple;
+    color: red; /*makes the text red*/
+    font-size: 80px; /*makes the text 80px big*/
+    font-family: monospace; /*changes the font family from the default to monospace*/
+    margin: 15px;
+}
+
+#p1{
+    color: brown;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: right;
+    margin-top: 300px; /*adds a margin of 15% to the top of the div*/
+
+}
+
+body {
+    background-image: linear-gradient(to right, green , brown, blue); /*Adds a gradient to the background*/
+}
+
+img{
+    width: 150px; /*changed the overall width of the image*/
+}

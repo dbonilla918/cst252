@@ -8,6 +8,24 @@ function addToWebPage(text)
 
 //YOU CAN ADD MORE FUNCTIONS HERE
 
+var namesV2 = [{name: "Kizzmekia Corbett"}, {name: "Ada Lovelace"}, {name: "Levar Burton"} ];
+
+function reformatNames(names) {
+
+	splitNames = console.log(names);
+	firstName = splitNames[0];
+	lastName = splitNames[1];
+	fixedName = lastName + ', ' + firstName;
+	newArray.push(fixedName);
+
+	addToWebPage('Before, the names were: ' + names)
+}
+
+reformatNames(namesV2[0]);
+reformatNames(namesV2[1]);
+reformatNames(namesV2[2]);
+
+
 //END FUNCTIONS SECTION
 
 function formatAndSortNames() {
@@ -56,9 +74,3 @@ function formatAndSortNames() {
 	addToWebPage('Afterwards, the names are: ' + combinedFixedString);
 
 }
-
-
-
-
-
-

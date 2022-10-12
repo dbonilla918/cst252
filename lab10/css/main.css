@@ -9,9 +9,9 @@
 
 .itembox {
 	border-radius: 20px;
-	border: thin solid grey;
+	border: 2px solid grey;
 	width: 300px;
-	width: 70%;	
+	width: 70%;
 	padding: 15px;
 	clear: both;
 	overflow: hidden;
@@ -27,7 +27,7 @@
 
 .courseitemname {
 	font-size: 50px;
-	margin-left: 15px;	
+	margin-left: 15px;
 	line-height: 180px;
 }
 

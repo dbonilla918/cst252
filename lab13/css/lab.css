@@ -1,0 +1,8 @@
+#box1 {
+	height: 150px;
+	width: 150px;
+	background-color: blue;
+	margin-left: 45%;
+	border: 1px solid black;
+	transition: .7s;
+}
